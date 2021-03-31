@@ -1,0 +1,269 @@
+/* Top Section */
+
+.TopSection{
+  background: #e23e57;
+}
+
+.head-row{
+  margin: 0;
+}
+
+.navbar-brand{
+  font-size: 2rem;
+}
+
+.head-text{
+  text-align: left;
+  margin: auto 0;
+  color: white;
+  font-size: 5rem;
+  margin-left: -5px;
+}
+
+.head-img{
+  width: 40%;
+  margin: auto;
+  display: block;
+  text-align: center;
+
+}
+
+.download-btn-holder{
+  text-align: center;
+}
+
+.download-btn{
+  margin: 3px 9px 18px;
+}
+
+/* features section */
+
+.feature1{
+  /* background: #88304e; */
+  background-image: url("../Music.jpg");
+  background-size: cover;
+  /* background-color: #88304e; */
+  background-color: #777777;
+  background-blend-mode: multiply;
+  text-align: center;
+  color: #fff;
+  padding: 10% 4.75%;
+  height: auto;
+
+}
+
+@media only screen and (min-width: 998px) {
+  .feature1{
+    height: 600px;
+  }
+}
+
+@media only screen and (max-width: 997px){
+  .feature1{
+    padding: 10% 10%;
+  }
+
+  .feature-icons, .feature-head{
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+}
+.feature-icons, .feature-head{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.feature2{
+  background: #522546;
+
+}
+
+/* working on animating the feature div section */
+
+.FeatureSection{
+  text-align: center;
+  position: relative;
+  z-index: 0;
+
+}
+
+.DESCR{
+  transform: scale(0);
+  width: 200px;
+  height: 100px;
+}
+
+.FEATURE-ICON{
+  transition: 0.3s all ease;
+}
+
+.FEATURE-ICON:hover{
+  transform: scale(1.2);
+
+}
+
+
+
+
+.appear1{
+  display: inline-block;
+  transform: scale(1);
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.hidden{
+  display: none;
+}
+
+.base{
+  background-color: #88304e;
+}
+
+.color1{
+  background-color: #4e8eb1;
+}
+
+.color2{
+  background-color: #ad529a;
+}
+
+.color3{
+  background-color: #5da45b;
+}
+
+
+/* PRICING SECTION */
+
+.PricingSection{
+  background: #e23e57;
+
+}
+
+.PRICING-CONTAINER{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: center;
+}
+
+
+
+.PRICING-CARDS
+{
+  /* width: 100%; */
+  height: 100%;
+  border-radius: 25px;
+  /* border: 4px solid white; */
+  background-color: #fff;
+  color: #e23e57;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8;
+}
+
+.PRICE-ROW{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.PRICE-COL{
+  margin-top: 20px;
+}
+
+.card-text{
+  height: 140px;
+}
+
+
+
+/* CarouselCommentSection */
+.CarouselCommentSection{
+
+  background-color: #c92841;
+
+  padding-top: 100px;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 100px;
+
+}
+
+.commentHead{
+
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+
+.carousel-inner{
+  border: 5px solid white;
+  border-radius: 14px;
+
+}
+
+.carousel-item {
+  background-color: #e23e57;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  color: white;
+
+
+}
+
+.Review{
+  height: 200px;
+
+}
+
+.User{
+  height: 100px;
+
+}
+
+.photo{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+/* Footer section */
+
+
+.FooterSection{
+  background-color: #e23e57;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+
+.icons a{
+  padding-left: 20px;
+  padding-right: 20px;
+  color: inherit;
+
+
+}
+
+.icons a i{
+  transition: 0.3s all ease;
+}
+
+.icons a i:hover
+{
+  transform: scale(1.5);
+  color: #ee909e;
+
+}
+
+.FooterSection h6{
+  margin-top: 70px;
+}
